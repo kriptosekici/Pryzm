@@ -133,7 +133,7 @@ sudo systemctl restart pryzmd && sudo journalctl -u pryzmd -f
 
 ```console
 # cüzdan oluşturalım - rues kısmını cüzdan adınızla değiştirin
-pryzmd keys add rues
+pryzmd keys add kriptosekici
 # cüzdan bilgileriniz kaydedin lütfen
 
 # çıktıda en altta false yazıyorsa devam edin yazmıyorsa bir kaç dakika bekleyin.
@@ -149,16 +149,16 @@ pryzmd status 2>&1 | jq .SyncInfo
 pryzmd tx staking create-validator \
 --amount 1000000upryzm \
 --pubkey $(pryzmd tendermint show-validator) \
---moniker "Rues" \
+--moniker "kriptosekici" \
 --identity "128462B2F5F8552F" \
 --details "Rues Community" \
---website "https://github.com/ruesandora" \
+--website "https://github.com/kriptosekici" \
 --chain-id indigo-1 \
 --commission-rate 0.1 \
 --commission-max-rate 0.20 \
 --commission-max-change-rate 0.03 \
 --min-self-delegation 1 \
---from rues \
+--from kriptosekici \
 --gas-adjustment 1.5 \
 --gas auto \
 --gas-prices 0.015upryzm \
