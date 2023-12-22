@@ -147,7 +147,7 @@ pryzmd status 2>&1 | jq .SyncInfo
 # şimdi validatorumuzu kuruyoruz
 # lütfen notlarımı okuyup bu komutu kullanın komutun altına notları bırakıyorum
 pryzmd tx staking create-validator \
---amount 1000000upryzm \
+--amount 2000000upryzm \
 --pubkey $(pryzmd tendermint show-validator) \
 --moniker "kriptosekici" \
 --identity "128462B2F5F8552F" \
