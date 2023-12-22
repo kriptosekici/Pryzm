@@ -150,7 +150,7 @@ pryzmd tx staking create-validator \
 --amount 2000000upryzm \
 --pubkey $(pryzmd tendermint show-validator) \
 --moniker "kriptosekici" \
---identity "128462B2F5F8552F" \
+--identity "" \
 --details "Rues Community" \
 --website "https://github.com/kriptosekici" \
 --chain-id indigo-1 \
