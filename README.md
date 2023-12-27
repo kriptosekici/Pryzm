@@ -186,7 +186,7 @@ sudo rm -rf $HOME/.pryzm
 sed -i "/PRYZM_/d" $HOME/.bash_profile
 
 # validatore token stake etme
-pryzmd tx staking delegate <OperatorAdresi> 1000000upryzm --from <Cüzdan> --chain-id indigo-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.035upryzm -y
+pryzmd tx staking delegate pryzmvaloper1ue3l6mlm2mfqyd8gxde6pzgpf6mcsr06vw920h 1000000upryzm --from kriptosekici --chain-id indigo-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.035upryzm -y
 
 # unjail etme
 pryzmd tx slashing unjail --from <Cüzdan> --chain-id indigo-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.015upryzm -y
